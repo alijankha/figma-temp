@@ -1,0 +1,392 @@
+.underline {
+    position: relative;
+    border-bottom: 4px solid red;
+    border-radius: 2%;
+}
+.play-btn {
+border: 2px solid rgb(163, 139, 139);
+padding: 6px;
+}
+@media (max-width: 767px) {
+    .custom-gap {
+        gap: 0.5rem !important;
+        /* gap-2 */
+    }
+   
+}
+
+
+    
+
+
+.hed{
+    width: 500px;
+    font-size: 70px;
+    color: rgb(48, 48, 167);
+}
+.pre{
+    width: 500px;
+}
+@media (max-width: 767px) {
+    .hed {
+        max-width: 302px;
+        width: 100%;
+        font-size: 32px;
+        /* 16px heading ke liye bohot chhota hota hai */
+    }
+
+    .pre {
+        max-width: 311px;
+        width: 100%;
+    }
+}
+.service-card {
+    padding: 25px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.service-card:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+.trip-section {
+  background: #f9fbff;
+}
+
+.small-title {
+  color: #5e17eb;
+  font-weight: 600;
+}
+
+.main-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 15px 0 30px;
+}
+
+.steps .step-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.steps .icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.icon.yellow { background: #f6c343; }
+.icon.orange { background: #ff8b3d; }
+.icon.blue { background: #4da3ff; }
+
+.trip-card {
+  background: #fff;
+  border-radius: 20px;
+  width: 320px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.trip-card img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.trip-card .card-body {
+  padding: 15px;
+  text-align: left;
+}
+
+.ongoing {
+  position: absolute;
+  bottom: -40px;
+  right: -20px;
+  background: #fff;
+  padding: 15px;
+  width: 180px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.progress {
+  height: 6px;
+  margin: 8px 0;
+}
+
+.progress-bar {
+  background: #5e17eb;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 30px;
+  }
+
+  .trip-card {
+    width: 100%;
+  }
+
+  .ongoing {
+    position: static;
+    margin-top: 15px;
+    width: 100%;
+  }
+}
+.testimonials {
+  background: #fff;
+}
+
+/* Left side */
+.section-tag {
+  color: #5e6282;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1f2b6c;
+  margin-top: 10px;
+}
+
+/* Dots */
+.dots {
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 50%;
+}
+
+.dot.active {
+  /* background: #1f2b6c; */
+}
+
+/* Testimonial Card */
+.testimonial-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  position: relative;
+  max-width: 500px;
+}
+
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+
+.message {
+  color: #5e6282;
+  margin-top: 30px;
+}
+
+.name {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.location {
+  font-size: 14px;
+  color: #5e6282;
+}
+
+/* Arrows */
+.arrows {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.arrows span {
+  cursor: pointer;
+  font-size: 18px;
+  color: #aaa;
+}
+
+/* Logos */
+.brand-logos img {
+  max-height: 40px;
+  filter: grayscale(100%);
+  opacity: 0.7;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 30px;
+  }
+
+  .testimonial-card {
+    margin: auto;
+  }
+
+  .arrows {
+    display: none;
+  }
+
+  .brand-logos img {
+    margin-bottom: 20px;
+  }
+}
+/* ===== Testimonials ===== */
+.testimonials {
+  overflow-x: hidden;
+}
+
+.section-tag {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5e6282;
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #1f2b6c;
+}
+
+/* Card */
+.testimonial-card {
+  background: #fff;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin-left: auto;
+  position: relative;
+}
+
+/* User Image */
+.user-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+ margin-top: 30px;
+}
+
+.message {
+  margin-top: 30px;
+  color: #5e6282;
+}
+
+.name {
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.location {
+  font-size: 14px;
+  color: #5e6282;
+}
+
+/* Dots */
+/* .dots {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ddd;
+  border: none;
+} */
+
+
+
+/* Arrows */
+.arrows {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.arrows span {
+  cursor: pointer;
+  font-size: 18px;
+  color: #aaa;
+}
+
+/* ===== 📱 MOBILE FIX ===== */
+@media (max-width: 991px) {
+
+  .section-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .section-tag {
+    text-align: center;
+    display: block;
+  }
+
+  .dots {
+    justify-content: center;
+  }
+
+  .testimonial-card {
+    margin: 40px auto 0;
+    max-width: 100%;
+  }
+
+  .user-img {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .arrows {
+    display: none;
+  }
+}
+.brand-section {
+  background: #fff;
+}
+
+.brand-logos img {
+  max-height: 40px;
+  width: auto;
+  opacity: 0.7;
+  filter: grayscale(100%);
+  transition: 0.3s ease;
+}
+
+.brand-logos img:hover {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+/* 📱 Mobile spacing */
+@media (max-width: 768px) {
+  .brand-logos div {
+    margin-bottom: 20px;
+  }
+}
